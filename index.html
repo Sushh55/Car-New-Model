@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload with progress bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Upload the image of the car</header>
+        <form action="#">
+            <input type="file" class="file-input" hidden>
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Browse the image to upload</p>
+        </form>
+        <section class="Allinput" action="#">
+            <label for="carname">Car Title:</label><br>
+            <input type="text" id="carname" name="carname"><br>
+            <label for="Description">Description:</label><br>
+            <input type="text-area" id="Description" name="Description">
+            <label for="Milage">Milage:</label><br>
+            <input type="text" id="Milage" name="Milage"><br>
+            <label for="Year">Built Year:</label><br>
+            <input type="text" id="Year" name="Year"> 
+            <button>Submit</button>  
+        </section>
+        
+        <!-- <section class="progress-area">
+            <li class="row">
+                <i class="fas fa-file-alt"></i>
+                <div class="content">
+                    <div class="details">
+                        <span class="name">image_01.png • Uploading </span>
+                        <span class="percent">50%</span>
+                    </div>  
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+
+                </div>
+                
+            </li>
+        </section> -->
+        <!-- <section class="uplaod-area">
+            <li class="row"> 
+                <div class="content">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <div class="details">
+                        <span class="name">image_01.png • Uploaded</span>
+                        <span class="size">70 KB</span>
+                    </div> 
+                </div>
+                <i class="fas fa-check"></i>
+            </li>
+        </section> -->
+    </div>
+
+    <script src = "script.js"></script>
+    
+</body>
+</html>
